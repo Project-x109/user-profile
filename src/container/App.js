@@ -2,8 +2,8 @@ import SimpleBar from 'simplebar-react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { ChakraProvider } from '@chakra-ui/react'
 import { theme } from 'helpers'
-import Cover from 'components/Cover'
-import Main from 'components/Main'
+import Cover from 'components1/Cover'
+import Main from 'components1/Main'
 
 export default function App() {
   return (

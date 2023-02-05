@@ -50,7 +50,7 @@ function Profile() {
         onClick={openChooseImage}
         src={userProfile ? userProfile : '/img/tim-cook.jpg'}
       >
-        <AvatarBadge bg="brand.blue" boxSize="1em">
+        <AvatarBadge bg="brand.main" boxSize="1em">
           <svg width="0.4em" fill="currentColor" viewBox="0 0 20 20">
             <path
               fillRule="evenodd"
@@ -77,9 +77,9 @@ function Profile() {
               <Text color="brand.cadet" fontSize="sm">
                 Supported types:
               </Text>
-              <Badge colorScheme="green">PNG</Badge>
-              <Badge colorScheme="green">JPG</Badge>
-              <Badge colorScheme="green">JPEG</Badge>
+              <Badge colorScheme="brand.main">PNG</Badge>
+              <Badge colorScheme="brand.main">JPG</Badge>
+              <Badge colorScheme="green.main">JPEG</Badge>
             </HStack>
           </ModalBody>
 
@@ -89,10 +89,10 @@ function Profile() {
         </ModalContent>
       </Modal>
       <VStack spacing={1}>
-        <Heading as="h3" fontSize="xl" color="brand.dark">
+        <Heading as="h3" fontSize="xl" color="brand.white">
           Tim Cook
         </Heading>
-        <Text color="brand.gray" fontSize="sm">
+        <Text color="brand.white" fontSize="sm">
           CEO of Apple
         </Text>
       </VStack>

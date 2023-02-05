@@ -11,10 +11,10 @@ function Sidebar() {
       flex={1}
       mr={{ base: 0, md: 5 }}
       mb={{ base: 5, md: 0 }}
-      bg="white"
+      bg="#243156"
       rounded="md"
       borderWidth={1}
-      borderColor="brand.light"
+      borderColor="brand.main"
       style={{ transform: 'translateY(-100px)' }}
     >
       <Profile />

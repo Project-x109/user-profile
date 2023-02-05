@@ -3,22 +3,22 @@ import { Box, Text, VStack } from '@chakra-ui/react'
 const list = [
   {
     id: 1,
-    name: 'Opportunities applied',
+    name: 'Loans Requested',
     value: 32,
     color: 'yellow',
   },
   {
     id: 2,
-    name: 'Opportunities won',
+    name: 'Credit Score',
     value: 26,
     color: 'green',
   },
   {
     id: 3,
-    name: 'Current opportunities',
+    name: 'Approved Loans',
     value: 6,
     color: 'cadet',
-  },
+  }
 ]
 
 function Data() {
@@ -35,9 +35,9 @@ function Data() {
           alignItems="center"
           justifyContent="space-between"
           borderBottomWidth={1}
-          borderColor="brand.light"
+          borderColor="brand.dark"
         >
-          <Text color="brand.dark">{item.name}</Text>
+          <Text color="brand.white">{item.name}</Text>
           <Text color={`brand.${item.color}`} fontWeight="bold">
             {item.value}
           </Text>

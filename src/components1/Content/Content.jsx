@@ -16,10 +16,10 @@ const Content = () => {
       flexDir="column"
       justifyContent="space-between"
       pt={5}
-      bg="white"
+      bg="#243156"
       rounded="md"
       borderWidth={1}
-      borderColor="gray.200"
+      borderColor="brand.main"
       style={{ transform: 'translateY(-100px)' }}
     >
       <Tabs>
@@ -31,10 +31,10 @@ const Content = () => {
               px={0}
               py={3}
               fontWeight="semibold"
-              color="brand.cadet"
+              color="brand.white"
               borderBottomWidth={1}
               _active={{ bg: 'transparent' }}
-              _selected={{ color: 'brand.dark', borderColor: 'brand.blue' }}
+              _selected={{ color: 'brand.white', borderColor: 'yellow' }}
             >
               {tab}
             </Tab>

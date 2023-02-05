@@ -13,6 +13,8 @@ export const theme = extendTheme({
       slate: '#77889a',
       white: '#fcfdfe',
       yellow: '#ed9b13',
+      main : '#243156',
+      white : '#ffffff'
     },
   },
   components: {

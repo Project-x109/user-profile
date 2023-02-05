@@ -19,7 +19,7 @@ function CompanySettings() {
       gap={6}
     >
       <FormControl id="companyId">
-        <FormLabel>Company ID</FormLabel>
+        <FormLabel color="brand.white">Company ID</FormLabel>
         <InputGroup>
           <InputLeftAddon color="gray.500">
             <svg width="1em" fill="currentColor" viewBox="0 0 20 20">
@@ -31,6 +31,7 @@ function CompanySettings() {
             </svg>
           </InputLeftAddon>
           <Input
+            bg="brand.light"
             focusBorderColor="brand.blue"
             type="text"
             placeholder="apple"
@@ -38,21 +39,23 @@ function CompanySettings() {
         </InputGroup>
       </FormControl>
       <FormControl id="companyName">
-        <FormLabel>Name</FormLabel>
-        <Input focusBorderColor="brand.blue" type="text" placeholder="Apple" />
+        <FormLabel color="brand.white">Name</FormLabel>
+        <Input bg="brand.light" focusBorderColor="brand.blue" type="text" placeholder="Apple" />
       </FormControl>
       <FormControl id="emailCompany">
-        <FormLabel>Email Address</FormLabel>
+        <FormLabel color="brand.white">Email Address</FormLabel>
         <Input
+          bg="brand.light"
           focusBorderColor="brand.blue"
           type="email"
           placeholder="info@apple.com"
         />
       </FormControl>
       <FormControl>
-        <FormLabel>Size</FormLabel>
+        <FormLabel color="brand.white">Size</FormLabel>
         <NumberInput>
-          <NumberInputField placeholder="6000" />
+          
+          <NumberInputField bg="brand.light" placeholder="6000" />
           <NumberInputStepper>
             <NumberIncrementStepper />
             <NumberDecrementStepper />
